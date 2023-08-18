@@ -176,40 +176,6 @@ const config = {
               },
             ],
           },
-          {
-            type: "dropdown",
-            label: "反馈建议",
-            position: "left",
-            items: [
-              {
-                label: "📝 提交反馈",
-                to: "/feedback",
-              },
-              {
-                label: "💬 微信交流",
-                href: "https://img.newzone.top/wechat.svg",
-              },
-              {
-                label: "📧 发送邮件",
-                href: "mailto:learndata@newzone.top",
-              },
-              {
-                label: "📺 加入 Discord",
-                href: "https://discord.gg/PZTQfJ4GjX",
-              },
-            ],
-          },
-          { type: "localeDropdown", position: "right" },
-          {
-            href: "https://github.com/rockbenben/ChatGPT-Shortcut",
-            position: "right",
-            className: "header-github-link",
-          },
-          {
-            href: "https://discord.gg/PZTQfJ4GjX",
-            position: "right",
-            className: "header-discord-link",
-          },
         ],
       },
       footer: {
