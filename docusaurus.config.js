@@ -152,15 +152,15 @@ const config = {
             items: [
               {
                 label: "IMGPrompt",
-                href: "https://prompt.newzone.top/",
+                href: "https://prompt.wdsj.one",
               },
               {
                 label: "文字处理",
-                href: "https://tools.newzone.top/json-translate",
+                href: "https://tools-docs.wdsj.one",
               },
               {
                 label: "工具收藏",
-                href: "https://nav.newzone.top",
+                href: "https://nav.wdsj.one",
               },
               {
                 label: "Chrome 扩展",
@@ -169,10 +169,6 @@ const config = {
               {
                 label: "Edge 扩展",
                 href: "https://microsoftedge.microsoft.com/addons/detail/chatgpt-shortcut/hnggpalhfjmdhhmgfjpmhlfilnbmjoin",
-              },
-              {
-                label: "Find on Product Hunt",
-                href: "https://www.producthunt.com/posts/chatgpt-shortcut?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatgpt&#0045;shortcut",
               },
             ],
           },
