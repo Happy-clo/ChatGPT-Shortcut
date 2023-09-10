@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.4.1",
-    "@waline/client": "^2.15.5"
+    "@waline/client": "^2.15.7"
   },
   "browserslist": {
     "production": [
