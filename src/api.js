@@ -1,9 +1,12 @@
 import axios from "axios";
-import Cookies from "js-cookie";
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
 // 登陆体系常量
 const API_URL = "https://api.newzone.top/api"; // http://localhost:1337/api  https://api.newzone.top/api
-const authToken = Cookies.get("auth_token"); // Get the auth token from the cookie
+let authToken;
+if (ExecutionEnvironment.canUseDOM) {
+  authToken = localStorage.getItem("auth_token");
+}
 
 const config = {
   headers: {
@@ -179,7 +182,7 @@ export async function getCommPrompts(page, pageSize, sortField, sortOrder, searc
 
     // 如果存在搜索关键字，那么添加到 URL 中
     if (searchTerm) {
-      url += `&filters[description][$containsi]=${searchTerm}&filters[title][$containsi]=${searchTerm}&filters[remark][$containsi]=${searchTerm}`;
+      url += `&filters[$or][0][description][$containsi]=${searchTerm}&filters[$or][1][title][$containsi]=${searchTerm}&filters[$or][2][remark][$containsi]=${searchTerm}`;
     }
 
     const response = await axios.get(url);
