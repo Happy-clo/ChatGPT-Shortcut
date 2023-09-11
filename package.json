@@ -23,7 +23,7 @@
     "@mdx-js/react": "^1.6.22",
     "@popperjs/core": "^2.11.6",
     "@waline/vercel": "^1.31.3",
-    "antd": "^5.8.6",
+    "antd": "^5.9.0",
     "axios": "^1.4.0",
     "clsx": "^2.0.0",
     "docusaurus2-plugin-google-adsense": "^1.1.0",
