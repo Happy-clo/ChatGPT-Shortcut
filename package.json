@@ -22,7 +22,7 @@
     "@emoji-mart/react": "^1.1.1",
     "@mdx-js/react": "^1.6.22",
     "@popperjs/core": "^2.11.6",
-    "@waline/vercel": "^1.31.3",
+    "@waline/vercel": "^1.31.4",
     "antd": "^5.9.4",
     "axios": "^1.5.1",
     "clsx": "^1.2.1",
