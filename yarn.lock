@@ -2944,10 +2944,10 @@
   dependencies:
     vue-demi ">=0.14.5"
 
-"@waline/client@^2.15.7":
-  version "2.15.7"
-  resolved "https://registry.yarnpkg.com/@waline/client/-/client-2.15.7.tgz#f06b825c131bb002d41a48e881929cce8a199a84"
-  integrity sha512-dQU0MZ+cMTBV0eIwIXCCptDZISEXaY61iRm+EAeQlZ6HpGLeZLaMf9N3EGz6qDNHQ/SNnWZ8MFB14/+2m0RZ7Q==
+"@waline/client@^2.15.8":
+  version "2.15.8"
+  resolved "https://registry.yarnpkg.com/@waline/client/-/client-2.15.8.tgz#b775357a8c199165be01f9036c9b0af1ecfef232"
+  integrity sha512-EBL7RXJUJs742miTvOU0Vt8NEmeJ63EN5TtSsYZfzjUdvEtlv+JsBbS5uiz3C9v5qV7Hz+XDZdc8nc13mG9vNQ==
   dependencies:
     "@vueuse/core" "^10.4.1"
     autosize "^6.0.1"
