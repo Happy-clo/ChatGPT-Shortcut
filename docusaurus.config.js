@@ -14,14 +14,14 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://www.aishort.top",
+  url: "https://aishort.wdsj.one",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "rockbenben", // Usually your GitHub org/user name.
+  organizationName: "Happy", // Usually your GitHub org/user name.
   projectName: "ChatGPT-Shortcut", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -32,43 +32,10 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "zh-Hans",
-    locales: ["zh-Hans", "en", "ja", "ko", "es", "fr", "de", "it", "ru", "pt", "hi", "ar", "bn"],
+    locales: ["zh-Hans", "en"],
     localeConfigs: {
       en: {
         htmlLang: "en-US",
-      },
-      ja: {
-        htmlLang: "ja-JP",
-      },
-      ko: {
-        htmlLang: "ko-KR",
-      },
-      es: {
-        htmlLang: "es-ES",
-      },
-      fr: {
-        htmlLang: "fr-FR",
-      },
-      de: {
-        htmlLang: "de-DE",
-      },
-      it: {
-        htmlLang: "it-IT",
-      },
-      ru: {
-        htmlLang: "ru-RU",
-      },
-      pt: {
-        htmlLang: "pt-PT",
-      },
-      hi: {
-        htmlLang: "hi-IN",
-      },
-      ar: {
-        htmlLang: "ar-SA",
-      },
-      bn: {
-        htmlLang: "bn-BD",
       },
     },
   },
@@ -152,15 +119,15 @@ const config = {
             items: [
               {
                 label: "IMGPrompt",
-                href: "https://prompt.newzone.top/",
+                href: "https://prompt.wdsj.one",
               },
               {
                 label: "文字处理",
-                href: "https://tools.newzone.top/json-translate",
+                href: "https://tools-docs.wdsj.one",
               },
               {
                 label: "工具收藏",
-                href: "https://nav.newzone.top",
+                href: "https://nav.wdsj.one",
               },
               {
                 label: "Chrome 扩展",
@@ -170,45 +137,7 @@ const config = {
                 label: "Edge 扩展",
                 href: "https://microsoftedge.microsoft.com/addons/detail/chatgpt-shortcut/hnggpalhfjmdhhmgfjpmhlfilnbmjoin",
               },
-              {
-                label: "Find on Product Hunt",
-                href: "https://www.producthunt.com/posts/chatgpt-shortcut?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatgpt&#0045;shortcut",
-              },
             ],
-          },
-          {
-            type: "dropdown",
-            label: "反馈建议",
-            position: "left",
-            items: [
-              {
-                label: "📝 提交反馈",
-                to: "/feedback",
-              },
-              {
-                label: "💬 微信交流",
-                href: "https://img.newzone.top/wechat.svg",
-              },
-              {
-                label: "📧 发送邮件",
-                href: "mailto:learndata@newzone.top",
-              },
-              {
-                label: "📺 加入 Discord",
-                href: "https://discord.gg/PZTQfJ4GjX",
-              },
-            ],
-          },
-          { type: "localeDropdown", position: "right" },
-          {
-            href: "https://github.com/rockbenben/ChatGPT-Shortcut",
-            position: "right",
-            className: "header-github-link",
-          },
-          {
-            href: "https://discord.gg/PZTQfJ4GjX",
-            position: "right",
-            className: "header-discord-link",
           },
         ],
       },
