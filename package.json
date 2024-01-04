@@ -24,7 +24,7 @@
     "@popperjs/core": "^2.11.6",
     "@waline/vercel": "^1.31.7",
     "antd": "^5.10.0",
-    "axios": "^1.5.1",
+    "axios": "^1.6.4",
     "clsx": "^2.0.0",
     "docusaurus2-plugin-google-adsense": "^1.1.0",
     "emoji-mart": "^5.5.2",
