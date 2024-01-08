@@ -41,7 +41,7 @@
     "react-share": "^4.4.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.4.3",
+    "@docusaurus/module-type-aliases": "^3.1.0",
     "@waline/client": "^2.15.8"
   },
   "browserslist": {
