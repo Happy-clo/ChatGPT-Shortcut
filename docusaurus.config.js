@@ -58,6 +58,10 @@ const config = {
           trackingID: "G-YJY639H2J1",
           anonymizeIP: false,
         },
+        /*
+        googleTagManager: {
+          containerId: "GTM-MX524GTT",
+        },*/
       }),
     ],
   ],
@@ -108,7 +112,7 @@ const config = {
             items: [
               {
                 label: "脚本扩展",
-                to: "/docs/guides/extension",
+                to: "/docs/extension",
               },
               {
                 label: "IMGPrompt",
