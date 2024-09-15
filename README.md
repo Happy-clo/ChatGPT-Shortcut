@@ -125,3 +125,13 @@ AI Short is an open-source project, affording you the liberty to make alteration
 - Presently, the user-end system is already integrated with a communal backend infrastructure. Should the need arise, you have the autonomy to establish your own backend, with pertinent interfaces located in the `src/api.js` file.
 
 `CodeUpdateHandler.py` is the script designed for bulk processing of multilingual deployments. Upon completing your alterations, execute `python CodeUpdateHandler.py`. It will, in accordance with the prescribed rules, partition the `prompt.json` into diverse languages and synchronize the principal page code as well as individual page code for the selected cues in each language.
+
+# Statement
+
+> [!CAUTION]  
+> 本分支仅用于个人开发提供构建或帮助，请勿直接使用构建附件。如出现任何有关源插件问题，本作者概不负责。
+
+---
+
+> [!CAUTION]  
+> This branch is only used for personal development to provide builds or help. Please do not use the build attachments directly. The author is not responsible for any problems with the source plugin.
