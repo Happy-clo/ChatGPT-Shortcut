@@ -10,6 +10,58 @@ current_dir = os.path.join(os.getcwd(), 'src', 'data')
 # 指定输入文件的路径
 input_path = os.path.join(current_dir, 'prompt.json')
 
+output_dir_path = os.path.join(current_dir, 'default')
+
+# 提供的语言列表
+allLanguages = ["zh", "en", "ja", "ko", 'es', 'fr', 'de', 'it', 'ru', 'pt', 'hi', 'ar', 'bn']
+
+# 读取 JSON 数据
+with open(input_path, 'r', encoding='utf-8') as file:
+    data = json.load(file)
+
+# 初始化最大 ID 值
+max_id = -1
+
+# 遍历每个元素提取 ID
+for item in data:
+    if item['id'] > max_id:
+        max_id = item['id']
+
+# ID 数组
+favor_ids = [2, 209, 197, 109, 20, 1, 251]
+other_ids = [185, 199, 90, 180, 232, 4, 204, 218, 41, 11, 234]
+
+# 过滤出指定 ID 的数据项
+favor_data = [item for item in data if item['id'] in favor_ids]
+other_data = [item for item in data if item['id'] in other_ids]
+
+# 处理和保存数据的函数
+def process_and_save_data(filtered_data, file_prefix, ids_order):
+    for lang in allLanguages:
+        # 按当前语言过滤并处理数据
+        processed_data = []
+        for item in filtered_data:
+            if lang in item:
+                # 先提取 weight 并重命名为 count
+                count = item['weight']
+                
+                # 处理剩余的数据
+                new_item = {key: value for key, value in item.items() if key in [lang, 'id', 'tags', 'website']}
+                new_item['count'] = count  # 设置 count
+                
+                processed_data.append(new_item)
+        # 按 ids_order 排列 processed_data
+        processed_data_sorted = sorted(processed_data, key=lambda x: ids_order.index(x['id']))
+        # 保存为新的 JSON 文件
+        output_file_path = f'{output_dir_path}\\{file_prefix}_{lang}.json'
+        with open(output_file_path, 'w', encoding='utf-8') as file:
+            json.dump(processed_data_sorted, file, ensure_ascii=False, indent=4)
+
+# 处理和保存 favor_ids 和 other_ids 数据
+process_and_save_data(favor_data, 'favor', favor_ids)
+process_and_save_data(other_data, 'other', other_ids)
+
+## 处理和保存 favor_ids、other_ids 和独立提示词数据
 # 指定输出文件的目录
 output_dir = current_dir
 
@@ -82,10 +134,7 @@ for lang in languages[1:]:
             new_file.write(new_content)
 
 # 更新 Prompt Page 页面的 prompt 内容
-# Define the path to the output directory
 react_jsx_dir = Path(os.path.join(os.getcwd(), 'src', 'pages', 'prompt'))
-
-# Ensure the output directory exists
 react_jsx_dir.mkdir(parents=True, exist_ok=True)
 
 # Loop through each prompt
@@ -112,11 +161,12 @@ export default PromptDetail;
         file.write(content)
 
 # 将./src/pages/index.tsx 文档复制到 ./i18n/{lang}/docusaurus-plugin-content-pages/index.tsx，并进行变量替换
-def replace_and_write(source_file, destination_file, original_text, replacement_text):
+def replace_and_write(source_file, destination_file, replacements):
     with open(source_file, 'r', encoding='utf-8') as file:
         file_data = file.read()
         
-    file_data = file_data.replace(original_text, replacement_text)
+    for original_text, replacement_text in replacements:
+        file_data = file_data.replace(original_text, replacement_text)
     
     with open(destination_file, 'w', encoding='utf-8') as file:
         file.write(file_data)
@@ -133,4 +183,13 @@ for lang in languages[1:]:
         os.remove(target_file)
     
     # Replace 'users.zh' with 'users.{lang}' and write to the target file
-    replace_and_write(source_file, target_file, 'users.zh', f'users.{lang}')
+    
+    # Prepare the replacements
+    replacements = [
+        ('users.zh', f'users.{lang}'),
+        ('favor_zh', f'favor_{lang}'),
+        ('other_zh', f'other_{lang}')
+    ]
+
+    # Replace and write to the target file
+    replace_and_write(source_file, target_file, replacements)

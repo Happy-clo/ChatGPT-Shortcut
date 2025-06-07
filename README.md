@@ -2,136 +2,106 @@
 ⚡️AI Short
 </h1>
 <p align="center">
-    English | <a href="./README-zh.md">中文</a> |
-<a href="./README-lang/README-es.md">Español</a> |
-<a href="./README-lang/README-ja.md">日本語</a> |
-<a href="./README-lang/README-ko.md">한국어</a> |
-<a href="./README-lang/README-fr.md">Français</a> |
-<a href="./README-lang/README-de.md">Deutsch</a> |
-<a href="./README-lang/README-it.md">Italiano</a> |
-<a href="./README-lang/README-ru.md">Русский</a> |
-<a href="./README-lang/README-pt.md">Português</a> |
-<a href="./README-lang/README-ar.md">العربية</a> |
-<a href="./README-lang/README-hi.md">हिन्दी</a> |
-<a href="./README-lang/README-bn.md">বাংলা</a>
+    英文 | <a href="./README-zh.md">中文</a> |
+<a href="./README-lang/README-es.md">西班牙语</a> |
+<a href="./README-lang/README-ja.md">日语</a> |
+<a href="./README-lang/README-ko.md">韩语</a> |
+<a href="./README-lang/README-fr.md">法语</a> |
+<a href="./README-lang/README-de.md">德语</a> |
+<a href="./README-lang/README-it.md">意大利语</a> |
+<a href="./README-lang/README-ru.md">俄语</a> |
+<a href="./README-lang/README-pt.md">葡萄牙语</a> |
+<a href="./README-lang/README-ar.md">阿拉伯语</a> |
+<a href="./README-lang/README-hi.md">印地语</a> |
+<a href="./README-lang/README-bn.md">孟加拉语</a>
 </p>
 <p align="center">
-    <em>ChatGPT Shortcut, Maximize your Efficiency and Productivity</em>
+    <em>ChatGPT 快捷指令，最大化您的效率与生产力</em>
 </p>
 
-## Why use AiShort?
+## 为什么使用 AiShort？
 
-AiShort provides a concise and easy-to-use list of AI instructions. Even without understanding of prompts, you can easily find the prompts suitable for various scenarios through filtering and searching, thus improving your productivity.
+AiShort 提供了一份简洁且易用的 AI 指令列表。即使不懂提示词，也能通过筛选和搜索轻松找到适合各种场景的提示词，从而提升您的工作效率。
 
-🚀 **One-click prompts**: With just one click, you can get a variety of prompts carefully selected by experts. Send them to AI language models like ChatGPT and you can get the expected output.
+🚀 **一键提示**：只需轻点一下，即可获得专家精心挑选的多种提示词。将它们发送给 ChatGPT 等 AI 语言模型，即可获得预期的输出结果。
 
-💻 **Boost productivity**: By using optimized prompts, you can get more accurate and practical feedback, thus effectively enhancing your work efficiency.
+💻 **提升生产力**：使用优化后的提示词，您可以获得更加准确且实用的反馈，从而有效提升工作效率。
 
-🌍 **Optimization for Non-English Languages**: We provide translations for English prompts in 12 major global languages, and support default responses in your mother tongue, which is convenient for non-English speakers to understand and use.
+🌍 **多语言优化**：我们提供 12 种主要全球语言的英文提示词翻译，支持以您的母语作为默认回复，方便非英语用户理解和使用。
 
-💾 **Save prompts**: Conveniently collect, edit, and manage your favorite prompts for future use.
+💾 **保存提示词**：方便收藏、编辑和管理您喜欢的提示词，便于日后使用。
 
-🌐 **Share prompts**: Share your favorite prompts, collaborate with others, and inspire more ideas.
+🌐 **分享提示词**：分享您喜欢的提示词，与他人协作，激发更多灵感。
 
-🗳️ **Community voting system**: Similar to Product Hunt or Reddit, the platform is community-driven. The best prompts will be pushed to the homepage.
+🗳️ **社区投票系统**：类似 Product Hunt 或 Reddit，平台由社区驱动，最佳提示词会被推荐到首页。
 
-📦 **Ready to use**: Just visit https://www.aishort.top/en/ to start using.
+📦 **即刻使用**：访问 https://www.aishort.top/zh/ 即可开始使用。
 
-The source of AiShort prompts includes internet selections, community shares, and [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts). We will regularly update to provide you with new prompts and inspiration. To understand how to use AiShort, please refer to [user manual](https://www.aishort.top/en/docs/guides/getting-started).
+AiShort 提示词来源包括网络精选、社区分享及 [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)。我们会定期更新，为您提供最新提示词和灵感。关于如何使用 AiShort，请参考 [用户手册](https://www.aishort.top/zh/docs/guides/getting-started)。
 
-Welcome to join our Discord community to exchange ideas and feedback.
+欢迎加入我们的 Discord 社区，交流想法与反馈。
 
 <a href="https://discord.gg/PZTQfJ4GjX">
-   <img src="https://img.shields.io/discord/1048780149899939881?color=%2385c8c8&label=Discord&logo=discord&style=for-the-badge" alt="chat on Discord" />
+   <img src="https://img.shields.io/discord/1048780149899939881?color=%2385c8c8&label=Discord&logo=discord&style=for-the-badge" alt="在 Discord 聊天" />
 </a>
 
-## Browser Extension
+## 浏览器扩展
 
-AiShort (ChatGPT Shortcut) is a versatile extension compatible with Chrome, Edge, Firefox, and other Chromium-based browsers. This extension not only features the functionality of the web version of ChatGPT Shortcut but also adds unique features such as a sidebar and automatic window activation. The extension can automatically start with ChatGPT or custom pages and can also be manually activated using the shortcut `Alt+Shift+S`. Here are the download channels:
+AiShort（ChatGPT 快捷指令）是一款兼容 Chrome、Edge、Firefox 及其他基于 Chromium 浏览器的多功能扩展。该扩展不仅具备网页版 ChatGPT 快捷指令的功能，还新增了侧边栏和自动窗口激活等特色功能。扩展可随 ChatGPT 或自定义页面自动启动，也可通过快捷键 `Alt+Shift+S` 手动激活。下载渠道如下：
 
-- **Chrome**: [Chrome Web Store](https://chrome.google.com/webstore/detail/chatgpt-shortcut/blcgeoojgdpodnmnhfpohphdhfncblnj)
-- **Edge**: [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/chatgpt-shortcut/hnggpalhfjmdhhmgfjpmhlfilnbmjoin)
-- **Firefox**: [Firefox Browser ADD-ONS](https://addons.mozilla.org/addon/chatgpt-shortcut/)
-- **GitHub**: [GitHub Release](https://github.com/rockbenben/ChatGPT-Shortcut/releases/latest)
+- **Chrome**：[Chrome 网上应用店](https://chrome.google.com/webstore/detail/chatgpt-shortcut/blcgeoojgdpodnmnhfpohphdhfncblnj)
+- **Edge**：[Microsoft Edge 附加组件](https://microsoftedge.microsoft.com/addons/detail/chatgpt-shortcut/hnggpalhfjmdhhmgfjpmhlfilnbmjoin)
+- **Firefox**：[Firefox 浏览器插件](https://addons.mozilla.org/addon/chatgpt-shortcut/)
+- **GitHub**：[GitHub 最新版本发布](https://github.com/rockbenben/ChatGPT-Shortcut/releases/latest)
 
-In addition, we offer the Tampermonkey script - [**ChatGPT Shortcut Anywhere**](https://greasyfork.org/scripts/482907-chatgpt-shortcut-anywhere), allowing users to customize matching domain names and use the AiShort sidebar on any website. However, due to script content injection restrictions on the ChatGPT page, the script's sidebar functionality is activated via a popup on the ChatGPT page.
+此外，我们提供 Tampermonkey 脚本——[**ChatGPT Shortcut Anywhere**](https://greasyfork.org/scripts/482907-chatgpt-shortcut-anywhere)，允许用户自定义匹配域名，在任意网站使用 AiShort 侧边栏。但因 ChatGPT 页面对脚本内容注入有限制，脚本的侧边栏功能在 ChatGPT 页面通过弹窗激活。
 
-## Deploy
+## 部署
 
-### Deploy With Vercel
+关于通过 Vercel、本地环境、Docker 部署及项目修改的详细步骤，请参阅 [ChatGPT Shortcut 部署指南](https://www.aishort.top/zh/docs/deploy)。
 
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FChatGPT-Shortcut%2Ftree%2Fmain)
+## 同步更新
 
-### Installation
+如果您通过一键部署在 Vercel 部署了自己的项目，可能会遇到持续提示更新的问题。这是因为 Vercel 默认行为是为您新建项目，而非 Fork 当前项目，导致无法正常检测更新。建议按以下步骤重新部署：
 
-```shell
-# Installation
-yarn
+1. 删除之前的仓库。
+2. 使用页面右上角的“Fork”按钮 Fork 当前项目。
+3. 在 [Vercel 新建项目页面](https://vercel.com/new) 选择刚 Fork 的项目，从导入 Git 仓库区域开始部署。
 
-# Local Development
-yarn start
+### 自动更新
 
-# Build: This command generates static content into the `build` directory
-yarn build
+> 若执行 Upstream Sync 时报错，请手动执行一次 Sync Fork。
 
-# Update the `defaultLocale` in the `docusaurus.config.js` file,
-# then perform a build for the desired language.
-yarn build --locale zh
-yarn build --locale en
-yarn build --locale ja
-yarn build --locale ko
-yarn build --locale es
-yarn build --locale fr
-yarn build --locale de
-yarn build --locale it
-yarn build --locale ru
-yarn build --locale pt
-yarn build --locale hi
-yarn build --locale ar
-yarn build --locale bn
-```
+Fork 项目后，因 GitHub 限制，需手动在您 Fork 的项目的 Actions 页面启用工作流，并激活 Upstream Sync Action。启用后将每日自动执行更新。
 
-## Synchronized Updates
+![自动更新](https://img.newzone.top/2023-05-19-11-57-59.png?imageMogr2/format/webp)
 
-If you have deployed your own project on Vercel with a single click, you might encounter an issue where updates are consistently indicated. This arises from Vercel's default behavior of creating a new project for you instead of forking the current project, thereby impeding proper update detection. It is recommended to follow the subsequent steps for re-deployment:
+![启用自动更新](https://img.newzone.top/2023-05-19-11-59-26.png?imageMogr2/format/webp)
 
-1. Remove the previous repository.
-2. Utilize the "fork" button located in the upper right corner of the page to fork the current project.
-3. On the [Vercel New Project page](https://vercel.com/new), select the recently forked project from the Import Git Repository section and proceed with deployment.
+### 手动更新
 
-### Automatic Updates
+若您希望立即手动更新，可参考 [GitHub 文档](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) 学习如何同步 Fork 项目与上游代码。
 
-> In the event of encountering an error during the execution of Upstream Sync, manually perform a single Sync Fork.
+欢迎为本项目点赞/关注，或关注作者，及时获取新功能更新通知。
 
-Once you have forked the project, due to GitHub restrictions, it is necessary to manually enable Workflows on the Actions page of your forked project and activate the Upstream Sync Action. Upon activation, updates will be automatically executed on a daily basis.
+## 修改说明
 
-![Automatic Updates](https://img.newzone.top/2023-05-19-11-57-59.png?imageMogr2/format/webp)
+AI Short 是开源项目，您可以自由修改网站名称和说明。
 
-![Enabling Automatic Updates](https://img.newzone.top/2023-05-19-11-59-26.png?imageMogr2/format/webp)
+- 修改页面名称，请查看 `docusaurus.config.js` 文件。
+- 修改使用说明，请进入 `docs` 目录。
+- 修改提示词，请在 `src/data/prompt.json` 中查找。如仅需修改某种语言（如中文），请编辑 `src/data/prompt_zh.json`。
+- 当前用户端系统已集成公共后端。如有需要，您可自行搭建后端，相关接口在 `src/api.js` 文件中。
 
-### Manual Updates
-
-If you wish to manually update immediately, you can refer to [GitHub's documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to learn how to synchronize the forked project with the upstream code.
-
-Feel free to show support for this project by giving it a star/follow, or by following the author, to stay informed about timely notifications regarding new feature updates.
-
-## Modification Information
-
-AI Short is an open-source project, affording you the liberty to make alterations to the nomenclature and explication of the website.
-
-- To amend the appellation of the page, please peruse the `docusaurus.config.js` document.
-- For the modification of usage directives, navigate to the `docs` directory.
-- To tailor the cues, you may find them within `src/data/prompt.json`. If you require alteration solely for a particular language, such as Chinese, direct your edits to `src/data/prompt_zh.json`.
-- Presently, the user-end system is already integrated with a communal backend infrastructure. Should the need arise, you have the autonomy to establish your own backend, with pertinent interfaces located in the `src/api.js` file.
-
-`CodeUpdateHandler.py` is the script designed for bulk processing of multilingual deployments. Upon completing your alterations, execute `python CodeUpdateHandler.py`. It will, in accordance with the prescribed rules, partition the `prompt.json` into diverse languages and synchronize the principal page code as well as individual page code for the selected cues in each language.
+`CodeUpdateHandler.py` 是用于多语言批量处理的脚本。修改完成后，执行 `python CodeUpdateHandler.py`，它将按规则拆分 `prompt.json` 为多语言版本，并同步主页代码及各语言提示词页面代码。
 
 > [!CAUTION]  
-> This branch is only for personal development, study and research. Please do not use any attachments directly. The author is not responsible for any problems with the source attachments.
+> 本分支仅供个人开发、学习和研究使用，请勿直接使用任何附件。作者对源附件出现的任何问题不承担责任。
+
 # 免责声明
 
 > [!CAUTION]  
-> 本分支仅用于个人开发提供学习研究，请勿直接使用任何附件。如出现任何有关源附件问题，本作者概不负责。
+> 本分支仅供个人开发学习研究使用，请勿直接使用任何附件。如出现任何源附件相关问题，作者概不负责。
 
 ---
 

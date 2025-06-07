@@ -1,7 +1,4 @@
 {
-  "description.communityPrompts": {
-    "message": "Aishort ব্যবহারকারীদের দ্বারা শেয়ার করা উদ্ভাবনী প্রম্পট শব্দগুলির একটি সংগ্রহ অন্বেষণ করুন৷ এই অনন্য এবং আকর্ষণীয় প্রম্পট শব্দগুলি আপনাকে ছোট ভিডিও, উপন্যাস, গেম এবং আরও অনেক কিছু তৈরি করার সময় অনুপ্রাণিত করতে পারে৷ আপনার প্রিয় টিপসের জন্য ভোট দিন, সেগুলি কপি করুন এবং আপনার বন্ধুদের সাথে শেয়ার করুন৷ আইশর্ট আপনাকে সৃজনশীলতার দরজা খুলতে এবং একসাথে দুর্দান্ত কাজ তৈরি করতে সহায়তা করতে দিন।"
-  },
   "field.id": {
     "message": "মুক্তির সময়"
   },
@@ -14,16 +11,13 @@
   "order.descending": {
     "message": "অবরোহী ক্রম"
   },
-  "link.home": {
-    "message": "বাড়িতে ফিরে"
-  },
   "upvote": {
     "message": "থাম্বস আপ"
   },
   "downvote": {
     "message": "ধাপে"
   },
-  "本页面展示的提示词均由网友分享和上传，我们无法保证内容的准确性、质量或完整性，同时也不对因内容引发的任何法律责任承担责任。如果发现有侵权或者其他问题，可以联系我们进行处理。我们将在收到通知后尽快处理。": {
+  "info.communityPrompts": {
     "message": "এই পৃষ্ঠায় প্রদর্শিত প্রম্পট শব্দগুলি নেটিজেনদের দ্বারা শেয়ার করা এবং আপলোড করা হয়৷ আমরা বিষয়বস্তুর নির্ভুলতা, গুণমান বা সম্পূর্ণতার গ্যারান্টি দিতে পারি না এবং বিষয়বস্তু থেকে উদ্ভূত কোনো আইনি দায়বদ্ধতার জন্য আমরা দায়ী থাকব না৷ আপনি যদি কোন লঙ্ঘন বা অন্যান্য সমস্যা খুঁজে পান, আপনি এটি মোকাবেলা করতে আমাদের সাথে যোগাযোগ করতে পারেন। আমাদের জানানোর সাথে সাথে আমরা এটি মোকাবেলা করব।"
   },
   "feedback.title": {
@@ -325,12 +319,6 @@
   "tabs.login": {
     "message": "প্রবেশ করুন"
   },
-  "tabs.register": {
-    "message": "নিবন্ধন"
-  },
-  "tabs.forgotPassword": {
-    "message": "পাসওয়ার্ড ভুলে যান"
-  },
   "card.welcome": {
     "message": "স্বাগত"
   },
@@ -363,9 +351,6 @@
   },
   "button.changePassword": {
     "message": "পাসওয়ার্ড পরিবর্তন করুন"
-  },
-  "label.forgotPassword": {
-    "message": "পাসওয়ার্ড ভুলে যান"
   },
   "title.userInfo": {
     "message": "ব্যবহারকারীর তথ্য"
@@ -421,17 +406,8 @@
   "message.success1": {
     "message": "যোগ করা কাস্টম প্রম্পট দেখতে &#39;মাই প্রম্পট&#39; লেবেলে ক্লিক করুন।"
   },
-  "link.user": {
-    "message": "ব্যবহারকারী ইন্টারফেস"
-  },
   "button.logout": {
     "message": "প্রস্থান"
-  },
-  "link.addprompt": {
-    "message": "একটি কাস্টম প্রম্পট যোগ করুন"
-  },
-  "modal.addprompt.title": {
-    "message": "শেয়ার প্রম্পট (এই বিষয়বস্তু &#39;আমার অনুরোধ&#39; ট্যাবে প্রদর্শিত হবে)"
   },
   "input.addprompt.share.checked": {
     "message": "হ্যাঁ"
@@ -441,9 +417,6 @@
   },
   "button.addPrompt": {
     "message": "প্রম্পট যোগ করুন"
-  },
-  "showcase.header.button": {
-    "message": "🙏 আপনার প্রম্পট শব্দ যোগ করুন"
   },
   "点击移除收藏": {
     "message": "প্রিয় অপসারণ করতে ক্লিক করুন"
@@ -753,12 +726,6 @@
   "myprompt": {
     "message": "আমার প্রম্পট"
   },
-  "homepage.title": {
-    "message": "AiShort (ChatGPT শর্টকাট) - একটি সহজ এবং ব্যবহারকারী-বান্ধব ChatGPT শর্টকাট কমান্ড তালিকা যা উত্পাদনশীলতাকে দ্বিগুণ করে!"
-  },
-  "homepage.description": {
-    "message": "AiShort হল একটি টুল যা এআই প্রম্পটগুলির দক্ষ পরিচালনা এবং ভাগ করার জন্য ডিজাইন করা হয়েছে। এটি ব্যবহারকারীদের সহজে কাস্টমাইজ করতে, সংরক্ষণ করতে এবং তাদের প্রম্পট শেয়ার করতে সক্ষম করে, পাশাপাশি হাজার হাজার সর্বজনীনভাবে ভাগ করা প্রম্পট সহ একটি সম্প্রদায়-চালিত প্ল্যাটফর্মে অ্যাক্সেস অফার করে, বিভিন্ন অ্যাপ্লিকেশনের জন্য উত্পাদনশীলতা বাড়ায়।"
-  },
   "homepage.slogan": {
     "message": "আপনার দক্ষতা এবং উত্পাদনশীলতা সর্বোচ্চ"
   },
@@ -789,12 +756,21 @@
   "community.tag": {
     "message": "সম্প্রদায়"
   },
-  "googleauth.tooltip": {
-    "message": "ChatGPT-এর এমবেড করা পৃষ্ঠাগুলি Google অনুমোদনের মাধ্যমে লগইন সমর্থন করে না। আপনার অ্যাকাউন্ট শংসাপত্র ব্যবহার করে লগ ইন করুন."
-  },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 item|{count} items",
+    "message": "{count} items",
     "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "message.passwordlessLinkSent": {
+    "message": "পাসওয়ার্ডহীন লগইন লিঙ্ক পাঠানো হয়েছে!"
+  },
+  "message.errorSendingPasswordlessLink": {
+    "message": "পাঠাতে ব্যর্থ. আপনার ইমেল বা ব্যবহারকারীর নাম চেক করুন."
+  },
+  "button.sendPasswordlessLink": {
+    "message": "পাসওয়ার্ডহীন লগইন লিঙ্ক পান"
+  },
+  "tabs.passwordlessLogin": {
+    "message": "পাসওয়ার্ডহীন লগইন"
   },
   "theme.blog.author.pageTitle": {
     "message": "{authorName} - {nPosts}",
@@ -823,5 +799,78 @@
   "theme.contentVisibility.draftBanner.message": {
     "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
     "description": "The draft content banner message"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "link.user": {
+    "message": "আমার প্রম্পট"
+  },
+  "link.myaccount": {
+    "message": "অ্যাকাউন্ট সেটিংস"
+  },
+  "link.addprompt": {
+    "message": "একটি প্রম্পট যোগ করুন"
+  },
+  "modal.addprompt.title": {
+    "message": "প্রম্পট শেয়ার করুন (এটি 'আমার প্রম্পট' ট্যাবে দেখাবে)"
+  },
+  "showcase.header.button": {
+    "message": "🙏 আপনার প্রম্পটগুলি শেয়ার করুন"
+  },
+  "label.forgotPassword": {
+    "message": "পাসওয়ার্ড ভুলে গেছেন"
+  },
+  "link.home": {
+    "message": "হোম"
+  },
+  "input.password.match": {
+    "message": "পাসওয়ার্ডগুলো মিলছে না!"
+  },
+  "input.password.valid": {
+    "message": "পাসওয়ার্ড কমপক্ষে ৬ অক্ষরের হতে হবে।"
+  },
+  "message.forgotPassword.info": {
+    "message": "আপনার ইমেইলে একটি পাসওয়ার্ড রিসেট লিঙ্ক পাঠানো হবে।"
+  },
+  "input.email.valid": {
+    "message": "অনুগ্রহ করে একটি বৈধ ইমেইল লিখুন!"
+  },
+  "message.passwordlessLogin.info": {
+    "message": "আপনার ইমেইলে একটি লগইন লিঙ্ক পাঠানো হবে। পাসওয়ার্ড ছাড়াই লগ ইন করতে এটিতে ক্লিক করুন।"
+  },
+  "message.fetchError": {
+    "message": "প্রম্পট আনতে ব্যর্থ হয়েছে। অনুগ্রহ করে পরে আবার চেষ্টা করুন।"
+  },
+  "message.noPrompts": {
+    "message": "এখনও কোনও প্রম্পট জমা দেওয়া হয়নি। অনুগ্রহ করে আপনার প্রম্পট যোগ করুন।"
+  },
+  "message.cache.cleared": {
+    "message": "ক্যাশে সাফ করা হয়েছে।"
+  },
+  "tooltip.clearCache": {
+    "message": "যদি আপনি অন্য ডিভাইসে আপনার পছন্দ বা প্রম্পট আপডেট করে থাকেন, তাহলে ক্যাশে সাফ করতে এবং সর্বশেষ কন্টেন্ট সিঙ্ক করতে ক্লিক করুন।"
+  },
+  "button.clearCache": {
+    "message": "ক্যাশে সাফ করুন"
+  },
+  "homepage.title": {
+    "message": "AiShort - উচ্চ দক্ষতা সম্পন্ন AI শর্টকাট প্ল্যাটফর্ম | প্রম্পট ব্যবস্থাপনা ও শেয়ারিং, উৎপাদনশীলতা বৃদ্ধি"
+  },
+  "homepage.description": {
+    "message": "AiShort (ChatGPT Shortcut) একটি AI নির্দেশনা ব্যবস্থাপনা টুল যা কাজ ও পড়াশোনার দক্ষতা বাড়ানোর জন্য ডিজাইন করা হয়েছে। এটি নির্বাচিত প্রম্পটের একটি গ্রন্থাগার, এক-ক্লিক নির্দেশনা প্রেরণ, বহু-ভাষার অনুবাদ সমর্থন এবং ব্যক্তিগতকৃত ব্যবস্থাপনা প্রদান করে, যা ব্যবহারকারীদের দ্রুত সঠিক প্রতিক্রিয়া পেতে সহায়তা করে। আমাদের প্রম্পট কমিউনিটিতে যোগ দিন, অনুপ্রেরণা শেয়ার করুন, সৃজনশীলতা উদ্দীপিত করুন, এবং উচ্চ দক্ষতা সম্পন্ন AI সহকারীর সুবিধা ও উদ্ভাবনায় অভিজ্ঞতা অর্জন করুন!"
+  },
+  "community.title": {
+    "message": "AiShort সৃজনশীল প্রম্পট কমিউনিটি - অনুপ্রেরণা জ্বালান, একসঙ্গে কাজ ও পড়াশোনার দক্ষতা বাড়াই"
+  },
+  "community.description": {
+    "message": "AiShort সৃজনশীল প্রম্পট কমিউনিটিতে যোগ দিন, ব্যবহারকারীদের দ্বারা নির্বাচিত অনন্য প্রম্পটগুলি অন্বেষণ ও শেয়ার করুন, যা শর্ট ভিডিও, উপন্যাস, গেমস এবং অন্যান্য ক্ষেত্রে সীমাহীন সৃজনশীলতা উদ্দীপিত করে। আপনার প্রিয় প্রম্পটগুলিতে ভোট দিন, সহজেই কপি ও শেয়ার করুন, এবং সৃজনশীলতার মেলবন্ধনে আরও উত্তেজনাপূর্ণ ধারণা উদ্ভাবন করুন!"
+  },
+  "hideTags": {
+    "message": "ট্যাগ লুকান"
+  },
+  "showTags": {
+    "message": "ট্যাগ দেখান"
   }
 }

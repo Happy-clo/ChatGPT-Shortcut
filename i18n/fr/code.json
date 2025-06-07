@@ -11,16 +11,13 @@
   "order.descending": {
     "message": "ordre décroissant"
   },
-  "link.home": {
-    "message": "Retour à la page d'accueil"
-  },
   "upvote": {
     "message": "patronner"
   },
   "downvote": {
     "message": "pédaler (un vélo)"
   },
-  "本页面展示的提示词均由网友分享和上传，我们无法保证内容的准确性、质量或完整性，同时也不对因内容引发的任何法律责任承担责任。如果发现有侵权或者其他问题，可以联系我们进行处理。我们将在收到通知后尽快处理。": {
+  "info.communityPrompts": {
     "message": "Les messages affichés sur cette page sont partagés et téléchargés par des citoyens. Nous ne pouvons pas garantir l'exactitude, la qualité ou l'exhaustivité du contenu, et nous n'assumons aucune responsabilité juridique découlant du contenu. Si vous constatez une infraction ou d'autres problèmes, vous pouvez nous contacter pour les régler. Nous nous en occuperons dès que possible après avoir reçu la notification."
   },
   "feedback.title": {
@@ -322,12 +319,6 @@
   "tabs.login": {
     "message": "s'inscrire"
   },
-  "tabs.register": {
-    "message": "inscription"
-  },
-  "tabs.forgotPassword": {
-    "message": "mot de passe oublié ?"
-  },
   "card.welcome": {
     "message": "bienvenu"
   },
@@ -360,9 +351,6 @@
   },
   "button.changePassword": {
     "message": "modifier votre mot de passe"
-  },
-  "label.forgotPassword": {
-    "message": "mot de passe oublié ?"
   },
   "title.userInfo": {
     "message": "informations sur l'utilisateur"
@@ -418,17 +406,8 @@
   "message.success1": {
     "message": "Cliquez sur l'intitulé \"Mon message\" pour afficher les messages personnalisés qui ont été ajoutés."
   },
-  "link.user": {
-    "message": "utilisateur"
-  },
   "button.logout": {
     "message": "annuler"
-  },
-  "link.addprompt": {
-    "message": "Ajout d'une invite personnalisée"
-  },
-  "modal.addprompt.title": {
-    "message": "Partager l'incitation (Ce contenu apparaîtra dans l'onglet \"Mes incitations\")"
   },
   "input.addprompt.share.checked": {
     "message": "être"
@@ -438,9 +417,6 @@
   },
   "button.addPrompt": {
     "message": "Ajouter une invite"
-  },
-  "showcase.header.button": {
-    "message": "🙏 Veuillez ajouter votre mot de repère !"
   },
   "点击移除收藏": {
     "message": "Cliquez pour supprimer les favoris"
@@ -708,9 +684,6 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
-  "description.communityPrompts": {
-    "message": "Explorez la collection d'idées novatrices partagées par les utilisateurs d'Aishort. Ces idées uniques et amusantes peuvent vous inspirer pour la création de courtes vidéos, de romans, de jeux et bien plus encore. Votez pour vos messages préférés, copiez-les et partagez-les avec vos amis. Laissez Aishort vous aider à ouvrir la porte de la créativité et à créer de grandes œuvres ensemble."
-  },
   "link.myfavorite": {
     "message": "Mes favoris"
   },
@@ -753,12 +726,6 @@
   "myprompt": {
     "message": "Mes suggestions"
   },
-  "homepage.title": {
-    "message": "AiShort (ChatGPT Shortcut) - Une liste de commandes de raccourcis ChatGPT simple et conviviale qui double la productivité !"
-  },
-  "homepage.description": {
-    "message": "AiShort est un outil conçu pour la gestion et le partage efficaces des messages-guides de l'IA. Il permet aux utilisateurs de personnaliser, d'enregistrer et de partager facilement leurs messages, tout en offrant un accès à une plateforme communautaire contenant des milliers de messages partagés publiquement, améliorant ainsi la productivité pour une variété d'applications."
-  },
   "homepage.slogan": {
     "message": "Maximisez votre efficacité et votre productivité"
   },
@@ -789,12 +756,21 @@
   "community.tag": {
     "message": "Communauté"
   },
-  "googleauth.tooltip": {
-    "message": "Les pages intégrées de ChatGPT ne prennent pas en charge la connexion via autorisation Google. Veuillez vous connecter en utilisant les identifiants de votre compte."
-  },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 élément|{count} éléments",
+    "message": "{count} éléments",
     "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "message.passwordlessLinkSent": {
+    "message": "Lien de connexion sans mot de passe envoyé !"
+  },
+  "message.errorSendingPasswordlessLink": {
+    "message": "L'envoi a échoué. Veuillez vérifier votre email ou votre nom d'utilisateur."
+  },
+  "button.sendPasswordlessLink": {
+    "message": "Obtenir un lien de connexion sans mot de passe"
+  },
+  "tabs.passwordlessLogin": {
+    "message": "Connexion sans mot de passe"
   },
   "theme.blog.author.pageTitle": {
     "message": "{authorName} - {nPosts}",
@@ -823,5 +799,78 @@
   "theme.contentVisibility.draftBanner.message": {
     "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
     "description": "The draft content banner message"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "link.user": {
+    "message": "Mes invites"
+  },
+  "link.myaccount": {
+    "message": "Paramètres du compte"
+  },
+  "link.addprompt": {
+    "message": "Ajouter une invite"
+  },
+  "modal.addprompt.title": {
+    "message": "Partager l'invite (Cela apparaîtra dans l'onglet 'Mes invites')"
+  },
+  "showcase.header.button": {
+    "message": "🙏 Partagez vos invites"
+  },
+  "label.forgotPassword": {
+    "message": "Mot de passe oublié"
+  },
+  "link.home": {
+    "message": "Accueil"
+  },
+  "input.password.match": {
+    "message": "Les mots de passe ne correspondent pas !"
+  },
+  "input.password.valid": {
+    "message": "Le mot de passe doit comporter au moins 6 caractères."
+  },
+  "message.forgotPassword.info": {
+    "message": "Un lien de réinitialisation du mot de passe sera envoyé à votre adresse e-mail."
+  },
+  "input.email.valid": {
+    "message": "Veuillez entrer une adresse email valide !"
+  },
+  "message.passwordlessLogin.info": {
+    "message": "Un lien de connexion vous sera envoyé par email. Cliquez dessus pour vous connecter sans mot de passe."
+  },
+  "message.fetchError": {
+    "message": "Échec de la récupération des invites. Veuillez réessayer plus tard."
+  },
+  "message.noPrompts": {
+    "message": "Aucun texte n'a encore été soumis. Veuillez ajouter vos messages."
+  },
+  "message.cache.cleared": {
+    "message": "Le cache a été effacé."
+  },
+  "tooltip.clearCache": {
+    "message": "Si vous avez mis à jour votre favori ou vos invites sur un autre appareil, cliquez sur pour effacer le cache et synchroniser le dernier contenu."
+  },
+  "button.clearCache": {
+    "message": "Effacer le cache"
+  },
+  "homepage.title": {
+    "message": "AiShort - Plateforme efficace de raccourcis AI | Gestion et partage de prompts, productivité accrue"
+  },
+  "homepage.description": {
+    "message": "AI Short (ChatGPT Shortcut) est un outil de gestion de prompts AI conçu pour améliorer l'efficacité au travail et dans les études. Il offre une bibliothèque de prompts sélectionnés, l'envoi de commandes en un clic, un support multilingue et une gestion personnalisée pour aider les utilisateurs à obtenir rapidement des retours précis. Rejoignez notre communauté de prompts pour partager des idées, stimuler la créativité et découvrez la commodité et l'innovation apportées par un assistant AI efficace !"
+  },
+  "community.title": {
+    "message": "Communauté créative de prompts AiShort - Allumez l'inspiration, améliorez ensemble l'efficacité au travail et dans les études"
+  },
+  "community.description": {
+    "message": "Rejoignez la communauté créative de prompts AiShort pour explorer et partager des prompts uniques sélectionnés par les utilisateurs, stimulant une créativité infinie dans des domaines tels que les vidéos courtes, les romans, les jeux et plus encore. Votez pour vos prompts préférés, copiez et partagez-les facilement pour stimuler encore plus d'idées brillantes !"
+  },
+  "hideTags": {
+    "message": "Masquer les tags"
+  },
+  "showTags": {
+    "message": "Afficher les tags"
   }
 }

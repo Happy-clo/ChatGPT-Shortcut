@@ -5,18 +5,22 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-.hideOnMobile {
-  display: none;
-}
-
-@media screen and (min-width: 576px) {
-  .hideOnMobile {
-    display: block;
+ @media (max-width: 767px) {
+  .showcaseFavorite {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.1rem !important;
+  }
+  
+  .showcaseList {
+    gap: 1rem !important;
   }
 }
 
 .filterCheckbox {
   justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
 }
 
 .filterCheckbox,
@@ -120,7 +124,6 @@
 }
 
 .onToggleButton {
-  display: inline-block;
   background-color: #18816a;
   color: var(--site-color-favorite-background);
   padding: 0.3rem 0.6rem;

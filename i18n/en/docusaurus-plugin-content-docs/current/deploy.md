@@ -1,10 +1,59 @@
 # Deploy
 
-## Deploy With Vercel
+## Configuration and Customization
 
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FChatGPT-Shortcut%2Ftree%2Fmain)
+AI Short is an open-source project that you can customize based on your needs. Below are common customization options and instructions:
 
-## Installation
+- **Change Website Title and Description**  
+  To update the website's title and description, edit the `docusaurus.config.js` configuration file.
+
+- **Modify Usage Instructions and Introduction**  
+  The project’s usage instructions and introduction can be found in the `docs` directory. Open the relevant files and make the necessary changes.
+
+- **Change Homepage Prompts**  
+  Homepage prompts are stored in the `src/data/prompt.json` file. To modify prompts in specific languages, such as English, edit the `src/data/prompt_en.json` file directly. To add a new prompt, use the following format:
+
+  ```json
+  {
+    "en": {
+      "title": "custom prompt",
+      "prompt": "custom prompt",
+      "description": "custom description",
+      "remark": "custom mark"
+    },
+    "website": null,
+    "tags": [
+      "music"
+    ],
+    "id": 500, 
+    "weight": 1
+  }
+  ```
+
+  **Note**: It's recommended to set the `id` to 500 or higher. New prompts won’t have dedicated pages or comment sections. If you want a dedicated page for a prompt, you can copy the template files from `src/data/pages/prompt` and modify them.
+
+- **Customize Backend**  
+  The project is currently connected to a shared backend system. If you wish to set up your own backend, refer to the API documentation in the `src/api.js` file.
+
+- **Multilingual Support and Deployment**  
+  After updating the language files, you can use the `CodeUpdateHandler.py` script for batch processing. Run the following command:
+
+  ```bash
+  python CodeUpdateHandler.py
+  ```
+
+  This script will split the `prompt.json` file based on predefined rules and update the homepage and featured prompts pages for all language versions.
+
+## Deployment
+
+System Requirements:
+
+- [Node.js 18.0](https://nodejs.org/) or later.
+- macOS, Windows (including WSL), and Linux are supported.
+
+### Local Deployment
+
+Make sure you have installed [Node.js](https://nodejs.org/).
 
 ```shell
 # Installation
@@ -30,6 +79,64 @@ yarn build --locale pt
 yarn build --locale hi
 yarn build --locale ar
 yarn build --locale bn
+
+# Deploy for multiple languages
+yarn build --locale zh && yarn build --locale en
+```
+
+### Vercel Deployment
+
+Click the button below to deploy ChatGPT-Shortcut to the Vercel platform with one click:
+
+[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FChatGPT-Shortcut%2Ftree%2Fmain)
+
+**Note**: The free tier of Vercel might run into errors due to insufficient memory. In such cases, you can opt for deploying a single language version. The specific steps are as follows:
+
+1. Go to the Vercel project you just deployed and open **Settings**.
+2. Under **Build & Deployment**, find **Build Command**, and then click **Override** on the right.
+3. Modify the deployment command. For example, to deploy the Chinese version, use `yarn build --locale zh`; for the Portuguese version, use `yarn build --locale pt`.
+
+## Cloudflare Pages Deployment
+
+Click the button or link below to fork this project, then follow the instructions to deploy it on Cloudflare Pages:
+
+👉 [Fork this project](https://github.com/rockbenben/ChatGPT-Shortcut/fork)
+
+Deployment steps:
+
+1. Log in to [Cloudflare Pages](https://pages.cloudflare.com/) and select **"Create a project"**.
+2. Link the repository you just forked.
+3. Configure the build command:
+   - **Build command**: `yarn build --locale zh` (choose the appropriate locale based on the language to be deployed; for Portuguese, use `yarn build --locale pt`).
+   - **Output directory**: `build`.
+4. Click **Deploy** and wait for Cloudflare Pages to finish the build and deployment process.
+
+Cloudflare Pages will automatically trigger a build and deployment every time you push new code.
+
+### Docker Deployment
+
+If you are familiar with Docker, you can quickly deploy with the following command:
+
+```bash
+# ghcr.io
+docker run -d -p 3000:3000 --name chatgpt-shortcut ghcr.io/rockbenben/chatgpt-shortcut:latest
+
+# docker hub
+docker run -d -p 3000:3000 --name chatgpt-shortcut rockben/chatgpt-shortcut:latest
+```
+
+Alternatively, you can use `docker-compose`:
+
+```yml
+version: "3.8"
+
+services:
+  docsify:
+    container_name: chatgpt-shortcut
+    image: ghcr.io/rockbenben/chatgpt-shortcut:latest
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
 ```
 
 ## Synchronized Updates
@@ -55,14 +162,3 @@ Once you have forked the project, due to GitHub restrictions, it is necessary to
 If you wish to manually update immediately, you can refer to [GitHub's documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to learn how to synchronize the forked project with the upstream code.
 
 Feel free to show support for this project by giving it a star/follow, or by following the author, to stay informed about timely notifications regarding new feature updates.
-
-## Modification Information
-
-AI Short is an open-source project, affording you the liberty to make alterations to the nomenclature and explication of the website.
-
-- To amend the appellation of the page, please peruse the `docusaurus.config.js` document.
-- For the modification of usage directives, navigate to the `docs` directory.
-- To tailor the cues, you may find them within `src/data/prompt.json`. If you require alteration solely for a particular language, such as Chinese, direct your edits to `src/data/prompt_zh.json`.
-- Presently, the user-end system is already integrated with a communal backend infrastructure. Should the need arise, you have the autonomy to establish your own backend, with pertinent interfaces located in the `src/api.js` file.
-
-`CodeUpdateHandler.py` is the script designed for bulk processing of multilingual deployments. Upon completing your alterations, execute `python CodeUpdateHandler.py`. It will, in accordance with the prescribed rules, partition the `prompt.json` into diverse languages and synchronize the principal page code as well as individual page code for the selected cues in each language.

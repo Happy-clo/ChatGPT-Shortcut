@@ -1,7 +1,4 @@
 {
-  "description.communityPrompts": {
-    "message": "Entdecken Sie die Sammlung innovativer, von Aishort-Nutzern geteilter Prompts. Diese einzigartigen und lustigen Prompts können Sie beim Erstellen von kurzen Videos, Romanen, Spielen und mehr inspirieren. Stimmen Sie für Ihre Lieblingsprompts, kopieren Sie sie und teilen Sie sie mit Ihren Freunden. Lassen Sie Aishort Ihnen helfen, die Tür zur Kreativität zu öffnen und gemeinsam großartige Werke zu schaffen."
-  },
   "field.id": {
     "message": "Freigabezeit"
   },
@@ -14,16 +11,13 @@
   "order.descending": {
     "message": "absteigende Reihenfolge"
   },
-  "link.home": {
-    "message": "Zurück zur Hauptseite"
-  },
   "upvote": {
     "message": "Upvote"
   },
   "downvote": {
     "message": "abstimmen"
   },
-  "本页面展示的提示词均由网友分享和上传，我们无法保证内容的准确性、质量或完整性，同时也不对因内容引发的任何法律责任承担责任。如果发现有侵权或者其他问题，可以联系我们进行处理。我们将在收到通知后尽快处理。": {
+  "info.communityPrompts": {
     "message": "Die auf dieser Seite angezeigten Prompts werden von Netizens geteilt und hochgeladen, wir können nicht für die Richtigkeit, Qualität oder Vollständigkeit des Inhalts garantieren und wir übernehmen auch keine Verantwortung für jegliche rechtliche Haftung, die aus dem Inhalt entsteht. Wenn Sie Verstöße oder andere Probleme feststellen, können Sie sich mit uns in Verbindung setzen, um diese zu lösen. Wir werden uns so schnell wie möglich nach Erhalt der Meldung darum kümmern."
   },
   "feedback.title": {
@@ -325,12 +319,6 @@
   "tabs.login": {
     "message": "sich anmelden"
   },
-  "tabs.register": {
-    "message": "Einschreibung"
-  },
-  "tabs.forgotPassword": {
-    "message": "Passwort vergessen?"
-  },
   "card.welcome": {
     "message": "herzlich willkommen"
   },
@@ -363,9 +351,6 @@
   },
   "button.changePassword": {
     "message": "Ihr Passwort ändern"
-  },
-  "label.forgotPassword": {
-    "message": "Passwort vergessen?"
   },
   "title.userInfo": {
     "message": "Benutzerinformationen"
@@ -421,17 +406,8 @@
   "message.success1": {
     "message": "Klicken Sie auf die Bezeichnung \"Meine Eingabeaufforderung\", um die hinzugefügten benutzerdefinierten Eingabeaufforderungen anzuzeigen."
   },
-  "link.user": {
-    "message": "Benutzer"
-  },
   "button.logout": {
     "message": "stornieren"
-  },
-  "link.addprompt": {
-    "message": "Hinzufügen einer benutzerdefinierten Eingabeaufforderung"
-  },
-  "modal.addprompt.title": {
-    "message": "Share Prompt (Dieser Inhalt erscheint auf der Registerkarte \"Meine Prompts\")"
   },
   "input.addprompt.share.checked": {
     "message": "sein"
@@ -441,9 +417,6 @@
   },
   "button.addPrompt": {
     "message": "Eingabeaufforderung hinzufügen"
-  },
-  "showcase.header.button": {
-    "message": "🙏 Bitte fügen Sie Ihr Stichwort hinzu!"
   },
   "点击移除收藏": {
     "message": "Zum Entfernen von Favoriten anklicken"
@@ -753,12 +726,6 @@
   "myprompt": {
     "message": "Meine Prompts"
   },
-  "homepage.title": {
-    "message": "AiShort-Eine einfache und benutzerfreundliche ChatGPT Shortcut Befehlsliste, die die Produktivität verdoppelt!"
-  },
-  "homepage.description": {
-    "message": "AiShort ist ein Tool für die effiziente Verwaltung und den Austausch von KI-Prompts. Es ermöglicht Nutzern, ihre Prompts einfach anzupassen, zu speichern und zu teilen. Gleichzeitig bietet es Zugang zu einer Community-gesteuerten Plattform mit Tausenden von öffentlich geteilten Prompts, was die Produktivität für eine Vielzahl von Anwendungen erhöht."
-  },
   "homepage.slogan": {
     "message": "Maximieren Sie Ihre Effizienz und Produktivität"
   },
@@ -789,12 +756,21 @@
   "community.tag": {
     "message": "Gemeinschaft"
   },
-  "googleauth.tooltip": {
-    "message": "Die eingebetteten Seiten von ChatGPT unterstützen keine Anmeldung per Google-Autorisierung. Bitte melden Sie sich mit Ihren Zugangsdaten an."
-  },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 Eintrag|{count} Einträge",
+    "message": "{count} Einträge",
     "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "message.passwordlessLinkSent": {
+    "message": "Passwortloser Login-Link gesendet!"
+  },
+  "message.errorSendingPasswordlessLink": {
+    "message": "Senden fehlgeschlagen. Bitte überprüfen Sie Ihre E-Mail oder Ihren Benutzernamen."
+  },
+  "button.sendPasswordlessLink": {
+    "message": "Passwortlosen Login-Link erhalten"
+  },
+  "tabs.passwordlessLogin": {
+    "message": "Passwortlose Anmeldung"
   },
   "theme.blog.author.pageTitle": {
     "message": "{authorName} - {nPosts}",
@@ -823,5 +799,78 @@
   "theme.contentVisibility.draftBanner.message": {
     "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
     "description": "The draft content banner message"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "link.user": {
+    "message": "Meine Aufforderungen"
+  },
+  "link.myaccount": {
+    "message": "Kontoeinstellungen"
+  },
+  "link.addprompt": {
+    "message": "Aufforderung hinzufügen"
+  },
+  "modal.addprompt.title": {
+    "message": "Aufforderung teilen (Dies wird im Tab 'Meine Aufforderungen' erscheinen)"
+  },
+  "showcase.header.button": {
+    "message": "🙏 Teile deine Aufforderungen"
+  },
+  "label.forgotPassword": {
+    "message": "Passwort vergessen"
+  },
+  "link.home": {
+    "message": "Startseite"
+  },
+  "input.password.match": {
+    "message": "Die Passwörter stimmen nicht überein!"
+  },
+  "input.password.valid": {
+    "message": "Das Passwort muss mindestens 6 Zeichen lang sein."
+  },
+  "message.forgotPassword.info": {
+    "message": "Ein Link zum Zurücksetzen des Passworts wird an Ihre E-Mail gesendet."
+  },
+  "input.email.valid": {
+    "message": "Bitte geben Sie eine gültige E-Mail-Adresse ein!"
+  },
+  "message.passwordlessLogin.info": {
+    "message": "Ein Anmeldelink wird an Ihre E-Mail gesendet. Klicken Sie darauf, um sich ohne Passwort anzumelden."
+  },
+  "message.fetchError": {
+    "message": "Die Eingabeaufforderungen konnten nicht abgerufen werden. Bitte versuchen Sie es später noch einmal."
+  },
+  "message.noPrompts": {
+    "message": "Noch keine Prompts eingereicht. Bitte fügen Sie Ihre Prompts hinzu."
+  },
+  "message.cache.cleared": {
+    "message": "Der Cache wurde geleert."
+  },
+  "tooltip.clearCache": {
+    "message": "Wenn Sie Ihre Favoriten oder Eingabeaufforderungen auf einem anderen Gerät aktualisiert haben, klicken Sie auf , um den Cache zu leeren und die neuesten Inhalte zu synchronisieren."
+  },
+  "button.clearCache": {
+    "message": "Cache löschen"
+  },
+  "homepage.title": {
+    "message": "AiShort - Effiziente AI-Shortcut-Plattform | Prompt-Management und Sharing, Produktivität steigern"
+  },
+  "homepage.description": {
+    "message": "AI Short (ChatGPT Shortcut) ist ein speziell zur Steigerung der Arbeits- und Lerneffizienz entwickeltes AI-Management-Tool. Es bietet eine kuratierte Bibliothek von Prompts, Ein-Klick-Befehlssendung, Unterstützung für mehrsprachige Übersetzung und personalisiertes Management, um Benutzern zu helfen, schnell präzises Feedback zu erhalten. Treten Sie unserer Prompt-Community bei, teilen Sie Inspirationen, wecken Sie Kreativität und erleben Sie die Bequemlichkeit und Innovation eines effizienten AI-Assistenten!"
+  },
+  "community.title": {
+    "message": "AiShort Kreative Prompt-Community - Inspiration entfachen, gemeinsam Arbeits- und Lerneffizienz steigern"
+  },
+  "community.description": {
+    "message": "Treten Sie der AiShort Kreativen Prompt-Community bei, um einzigartige Prompts zu entdecken und zu teilen, die von Benutzern ausgewählt wurden, und grenzenlose Kreativität in Bereichen wie Kurzvideos, Romanen, Spielen und mehr zu entfachen. Stimmen Sie für Ihre Lieblings-Prompts ab, kopieren und teilen Sie sie mühelos, um noch mehr brillante Ideen zu entfachen!"
+  },
+  "hideTags": {
+    "message": "Tags ausblenden"
+  },
+  "showTags": {
+    "message": "Tags anzeigen"
   }
 }
