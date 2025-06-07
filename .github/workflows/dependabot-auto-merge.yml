@@ -1,20 +1,27 @@
+# Dependabot 自动合并工作流
 name: Dependabot auto-merge
+# 触发条件：在有 pull_request 时运行
 on: pull_request
 
 permissions:
+  # 允许对内容和 PR 进行写操作
   contents: write
   pull-requests: write
 
 jobs:
   dependabot:
+    # 运行环境为最新的 Ubuntu
     runs-on: ubuntu-latest
+    # 仅当 PR 作者为 dependabot[bot] 时才运行
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
+      # 获取 Dependabot PR 的元数据
       - name: Dependabot metadata
         id: metadata
-        uses: dependabot/fetch-metadata@v2
+        uses: dependabot/fetch-metadata@main
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      # 如果依赖名称包含 my-dependency 且为补丁版本更新，则自动合并 PR
       - name: Enable auto-merge for Dependabot PRs
         if: ${{contains(steps.metadata.outputs.dependency-names, 'my-dependency') && steps.metadata.outputs.update-type == 'version-update:semver-patch'}}
         run: gh pr merge --auto --merge "$PR_URL"

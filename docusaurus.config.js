@@ -1,8 +1,8 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
+// `@type` JSDoc 注释允许编辑器自动补全和类型检查
+// (当与 `@ts-check` 配对时)。
+// 有多种等效方式声明 Docusaurus 配置。
+// 参见: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from "prism-react-renderer";
 
@@ -12,23 +12,22 @@ const config = {
   // tagline: '方便中文使用 ChatGPT 快捷指令',
   favicon: "img/favicon.ico",
 
-  // Set the production url of your site here
+  // 设置站点的生产 URL
   url: "https://www.aishort.top",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  // 设置站点的基础路径
+  // 对于 GitHub Pages 部署，通常是 '/<projectName>/'
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "rockbenben", // Usually your GitHub org/user name.
-  projectName: "ChatGPT-Shortcut", // Usually your repo name.
+  // GitHub Pages 部署配置
+  // 如果不使用 GitHub Pages，则不需要这些配置
+  organizationName: "rockbenben", // 通常是你的 GitHub 组织/用户名
+  projectName: "ChatGPT-Shortcut", // 通常是你的仓库名
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is English, you
-  // may want to replace "zh" with "en".
+  // 即使不使用国际化，也可以使用此字段设置有用的元数据，如 html lang
+  // 例如，如果站点是英文，你可能想将 "zh" 替换为 "en"
   i18n: {
     defaultLocale: "zh",
     locales: ["en", "zh", "ja", "ko", "es", "fr", "de", "it", "ru", "pt", "hi", "ar", "bn"],
@@ -79,7 +78,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      // 替换为你的项目的社交卡片
       // image: 'img/docusaurus-social-card.jpg',
       // autocorrect: false,
       colorMode: {
@@ -159,7 +158,7 @@ const config = {
               },
             ],
           },
-          // remove the language dropdown from the navbar (if you only have one language)
+          // 从导航栏中移除语言下拉菜单（如果只有一种语言）
           { type: "localeDropdown", position: "right" },
           {
             title: "QQ Group",
